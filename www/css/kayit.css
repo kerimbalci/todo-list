@@ -1,0 +1,108 @@
+
+body {
+  background: linear-gradient(-45deg, #1d447e, #1E1E2F, #343639);
+  padding: 10px 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+#surveyContainer {
+  background: white;
+  width: 94%;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* SurveyJS COMPACT MODE */
+.sv-root-modern {
+  --sjs-font-size: 13px;
+  --sjs-question-title-font-size: 13px;
+}
+
+.sv-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.sv-row > div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.sv-question {
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.sv-question__title {
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+
+.sv-question__content {
+  margin-top: 3px;
+}
+
+.sv-input, .sv-text {
+  padding: 6px 8px;
+  height: 34px;
+  width: 100%;
+}
+
+.sv-nav-btn {
+  padding: 6px 12px;
+  margin-top: 12px;
+}
+
+.sv-title {
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.sv-description {
+  font-size: 12px;
+  margin-bottom: 12px;
+  line-height: 1.3;
+  color: #666;
+}
+
+.error-message {
+  max-width: 450px;
+  margin: 5px auto 8px auto;
+  padding: 8px;
+  font-size: 12px;
+}
+
+/* Hata mesajı için özel stil */
+.custom-error-message {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .sv-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .sv-row > div {
+    min-width: 100%;
+  }
+  
+  #surveyContainer {
+    padding: 12px;
+    width: 98%;
+  }
+}

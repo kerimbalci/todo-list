@@ -1,0 +1,34 @@
+{
+    "name": "red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@buglss/node-red-crontinject": "~3.0.2",
+        "bootstrap-icons": "^1.13.1",
+        "cors": "^2.8.5",
+        "ejs": "^3.1.10",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.16.2",
+        "node-red": "^4.0.9"
+    },
+    "main": "settings.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kerimbalci/TODO.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kerimbalci/TODO/issues"
+    },
+    "homepage": "https://github.com/kerimbalci/TODO#readme"
+}
